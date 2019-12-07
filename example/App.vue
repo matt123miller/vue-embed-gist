@@ -6,8 +6,7 @@
     <br>
     <h3>Install vue-embed-gist using npm</h3>
     <vue-embed-gist 
-      gist-id="8bab656a910829ab9c32d7700c570be6"
-      file="npminstall.sh"/>
+      gist-id="3a97d818f66aaafcbe09dabbe73ed1bb" file="PhoneRotation.cs"/>
     <br>
     <h3>Usage</h3>
     <vue-embed-gist 
