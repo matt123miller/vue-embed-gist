@@ -1,18 +1,19 @@
 {
-  "name": "vue-embed-gist",
+  "name": "vue-embed-gist-nojquery",
   "version": "1.0.1",
   "description": "Vue component to embed Github Gists, inspired by Blair Vanderhoof&#39;s gist-embed.",
   "repository": {
-    "url": "sudhanshu-15/vue-embed-gist",
+    "url": "https://github.com/matt123miller/vue-embed-gist",
     "type": "git"
   },
   "keywords": [
     "vue",
     "gist",
     "embed",
-    "component"
+    "component",
+    "github gist"
   ],
-  "main": "dist/vue-embed-gist.cjs.js",
+  "main": "dist/vue-embed-gist-nojquery.cjs.js",
   "files": [
     "dist"
   ],
@@ -40,7 +41,7 @@
       "cjs",
       "umd"
     ],
-    "name": "vue-embed-gist",
+    "name": "vue-embed-gist-nojquery",
     "plugins": [
       "vue"
     ]
