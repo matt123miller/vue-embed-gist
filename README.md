@@ -1,22 +1,18 @@
-# vue-embed-gist
+# vue-embed-gist-nojquery
+Vue component to embed Github Gists using jsonp, instead of jquery.  Inspired by and forked from Blair Vanderhoof's [gist-embed](https://github.com/sudhanshu-15/vue-embed-gist).
 
-# This was forked from https://github.com/sudhanshu-15/vue-embed-gist
-
-# I literally just wanted to remove jquery.
-
-Vue component to embed Github Gists, inspired by Blair Vanderhoof's gist-embed. (https://github.com/blairvanderhoof/gist-embed)
 
 ## Install
 
 ```bash
-yarn add vue-embed-gist
+yarn add vue-embed-gist-nojquery
 ```
 or
 ```bash
-npm install --save vue-embed-gist
+npm install --save vue-embed-gist-nojquery
 ```
 
-<!-- CDN: [UNPKG](https://unpkg.com/vue-embed-gist/) | [jsDelivr](https://cdn.jsdelivr.net/npm/vue-embed-gist/) (available as `window.VueEmbedGist`) -->
+<!-- CDN: [UNPKG](https://unpkg.com/vue-embed-gist-nojquery) | [jsDelivr](https://unpkg.com/vue-embed-gist-nojquery) (available as `window.VueEmbedGist`) -->
 
 ## Usage
 
@@ -28,7 +24,7 @@ npm install --save vue-embed-gist
 </template>
 
 <script>
-import VueEmbedGist from 'vue-embed-gist'
+import VueEmbedGist from 'vue-embed-gist-nojquery'
 
 export default {
   components: {
@@ -54,4 +50,4 @@ File name in the gist
 
 ## License
 
-MIT &copy; [Sudhanshu Siddh](www.ssiddh.me)
+MIT &copy;
